@@ -1,0 +1,27 @@
+.header-wrapper {
+  background: #118ac3;
+  padding: 0px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+    .page-logo {
+      cursor: pointer;
+    }
+    .cart-wrapper {
+      cursor: pointer;
+      padding: 10px;
+      .cart-badge {
+        background-color: "#fff";
+        color: "#999";
+        .product-cart {
+          font-size: 35px;
+        }
+      }
+    }
+  }
+}
